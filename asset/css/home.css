@@ -1,0 +1,72 @@
+body{
+    
+    margin-left: 23%;
+    font-family: sans-serif;
+    background-color:#1a181bf2;
+    text-align: center;
+
+}
+#heading{
+    width: 60%;
+    color: wheat;
+    margin-top: 50px;
+} 
+
+.contact-book{
+    width: 60%;
+}
+.contact-book ul{
+    list-style: none;
+}
+
+.contact-info{
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 1px 1px blanchedalmond;
+}
+.contact-info:hover{
+    background-color: #352f2f;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    color: blanchedalmond;
+    justify-content: space-between;
+}
+#p1{
+    margin-left: 4px;
+}
+.delete-button{
+    width: 10%;
+    text-align: center;
+    margin-top: 12px;
+}
+.delete-button a{
+    color: lightslategray;
+}
+
+.forms{
+    margin-left:5%;
+    width: 50%;
+}
+.forms input {
+    width: 32%;
+    margin-top: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent;
+    margin-right: 10px;
+    color: blanchedalmond;
+    height:3vh;
+}
+.forms button{
+    background-color: blanchedalmond;
+    color: #1a181bf2;
+    border: none;
+    height:3vh;
+    font-weight: bold;
+}
